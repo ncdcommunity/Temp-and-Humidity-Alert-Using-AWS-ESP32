@@ -80,3 +80,5 @@ It defines which operation a device or user can access.
 ## OUTPUT
 ![alt tag](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/AWS_Output.JPG)
 
+## Steps to make mail alerts.
+- 
