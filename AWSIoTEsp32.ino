@@ -67,7 +67,7 @@ void setup() {
 
 void loop() {
 
-/*Establishing sensor data read */
+/*Reading sensor data */
 
   if (Serial1.available()) {
     data[0] = Serial1.read();
@@ -112,7 +112,7 @@ void loop() {
           if (voltage < 1) {
             Serial.println("Time to Replace The Battery");
           }
-          temp = cTemp;          //Assign sensor Temperature(C) evaluated to temp variable
+          temp = cTemp;          //Assign sensor cTemp(C) evaluated to temp variable
           Humidity = humidity;   //Assign sensor humidity evaluated to Humidity variable
         }
       } else {
