@@ -125,15 +125,18 @@ SELECT * FROM '$aws/things/Temp_Humidity_esp32/shadow/update'
 - Search SNS.Click on SNS
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert12.JPG)
 
-- In Amazon SNS -Click on Subscription.
+- In Amazon SNS -Click on Subscription.Select topic ARN.Protocol-Email -Give your email Address on which alert to be send.
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert13.JPG)
 
 - Now click on Create Subscription.
--![alt tag]()
 
+- After clicking the Create Subscription .You have to confirm Subscription by clicking on the mail ,that is send to your registered mail id.
 
+![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/Alert20.JPG)
 
+- Confirm Subscrption link
+![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/Alert.JPG)
 
+## OUTPUT
 
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert7.JPG)
-
+![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/emailOutput.JPG)
