@@ -1,6 +1,6 @@
 ![alt tag](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/imgonline-com-ua-twotoone-XpoMD4Mf6S.jpg)
 
-**In this tutorial, we will measure different temperature and humidity data using Temp and humidity sensor. You will also learn how to send this data to AWS.**
+**In this tutorial, we will measure  temperature and humidity  using Esp32 and Temp-humidity sensor. You will also learn how to send this data to AWS and create mail alert.**
 
 
 **Hardware** :
