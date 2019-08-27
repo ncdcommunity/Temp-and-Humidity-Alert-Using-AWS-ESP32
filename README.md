@@ -76,7 +76,7 @@ It defines which operation a device or user can access.
 **Add Private key,Certificate and root_CA to code.**
 - Open your downloaded certificate in your text editor(Notepad++),mainly private key ,root_CA and certificate of thing and edit them as 
 the format of aws_iot_certficates.c inside AWS_IOT folder.
-- Now open your AWS_IoT folder in your arduino library -My Document.Go to C:\Users\xyz\Documents\Arduino\libraries\AWS_IOT\src ,click on  aws_iot_certficates.c,open it on editor and paste all the edited certificate  their at required place,save it.
+- Now open your AWS_IoT folder in your arduino library -My Document.Go to -**C:\Users\xyz\Documents\Arduino\libraries\AWS_IOT\src** ,click on  aws_iot_certficates.c,open it on editor and paste all the edited certificate  their at required place,save it.
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/awscode3.JPG)
 
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/awscode4.JPG)
