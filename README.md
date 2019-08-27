@@ -26,7 +26,9 @@
 - **You must assign your unique AWS  MQTT_TOPIC,AWS_HOST,SSID (WiFi Name) and Password of the available network.**
 - **MQTT topic and AWS HOST can be get inside Things-Interact at AWS-IoT console.**
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/awscode.JPG)
+
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/awscode1.JPG)
+
 ![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/awscode2.JPG)
 
 -**Before uploading the code add certificate inside AWS_IOT folder to aws_iot_certficates.c,which is done in further steps.
