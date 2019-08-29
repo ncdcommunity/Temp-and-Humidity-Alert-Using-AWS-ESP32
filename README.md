@@ -84,8 +84,8 @@ the format of aws_iot_certficates.c inside AWS_IOT folder.
 [![ ALT TEXT](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/vedio3.JPG)](https://www.youtube.com/watch?v=IfoH-t8bcpY)
 
 - Go to test in AWS_IoT console.
-![alt tag](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/test1.JPG)
 - Fill your Mqtt topic to Subscription topic in your test credential.
+![alt tag](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/test1.JPG)
 ![alt tag](https://github.com/mjScientech/Monitoring-Temp-and-Humidity-using-AWS-ESP32/blob/master/test2.JPG)
 - Now you can view yor temp and humidity data.
 
