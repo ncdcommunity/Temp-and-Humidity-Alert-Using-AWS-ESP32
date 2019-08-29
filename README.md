@@ -98,14 +98,13 @@ the format of aws_iot_certficates.c inside AWS_IOT folder.
 
 **You set up Amazon Simple Notification Service (Amazon SNS) for creating mail alert  to receivers address for different temperature and humidity readings.**
 
+[![ ALT TEXT](https://github.com/ncdcommunity/Temp-and-Humidity-Alert-Using-AWS-ESP32/blob/master/Rule%20Vedio.JPG)](https://www.youtube.com/watch?v=S3EDuV-5_3Q)
+
 - Go to AWS IoT console -Click on Act.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert1.JPG)
 
 - Don't have any rule -Click on create rule.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert2.JPG)
 
 - On this page Name the rule i.e AlertTempEsp32 ,also provide the description(Creating mail alert of Temp and Humidity sensors data).
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert3.JPG)
 
 - Now create Rule Query Statement(SQL statement for processing data from source).In this the statement used is
 ```
@@ -114,33 +113,23 @@ SELECT * FROM '$aws/things/Temp_Humidity_esp32/shadow/update'
 ```
 - **$aws/things/Temp_Humidity_esp32/shadow/update**,Go to AWS IoT Console -Manage-Thing-Click on your created Thing -Interact.
 
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert4.JPG)
 
 - To choose an action Click on ADD Action.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert5.JPG)
 
 - Select send a message as an SNS push notification.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert6.JPG)
 
 - Now Configure Action selected.for SNS target-choose Create. Enter a name for the SNS topic,such as Temp_Humidity_Esp32Topic.Message Format -**Raw** . Create role -**Temp_Humidity_Esp32TopicRole**.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert7.JPG)
 
 - Add Action.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert8.JPG)
 
 - Create rule.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert9.JPG)
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert10.JPG)
 
 - Create Amazon SNS to send the messages through your Amazon SNS topic to your email inbox.Click on Services .
-
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert11.JPG)
+[![ ALT TEXT](https://github.com/ncdcommunity/Temp-and-Humidity-Alert-Using-AWS-ESP32/blob/master/SNS%20vedio.JPG)](https://www.youtube.com/watch?v=ogmJ8qkFd4c)
 
 - Search SNS.Click on SNS
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert12.JPG)
 
 - In Amazon SNS -Click on Subscription.Select topic ARN.Protocol-Email -Give your email Address on which alert to be send.
-![alt tag](https://github.com/mjScientech/Temp-and-Humidity-Alert--AWS-ESP32/blob/master/alert13.JPG)
 
 - Now click on Create Subscription.
 
